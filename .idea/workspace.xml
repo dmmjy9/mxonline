@@ -2,256 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b052ba2d-f6a0-41da-834c-049bf40926e8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-image-gallery/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-modal/img/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2-spinner.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2x2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/utils/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/utils/email_send.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/dashboard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/fonts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/forms.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/widgets.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-no.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/search.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/SelectBox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/actions.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/calendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/collapse.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/inlines.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/inlines.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/jquery.init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/timeparse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/themes/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/themes/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/themes/bootstrap-xadmin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.mobile.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.page.dashboard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.plugin.aggregation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.plugin.formset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.plugin.importexport.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.plugin.quickfilter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.plugins.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.widget.editable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.widget.select-transfer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.page.dashboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.page.form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.page.list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.batch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.bookmark.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.charts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.details.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.editable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.filters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.formset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.importexport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.portal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.quick-form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.quickfilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.refresh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.revision.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.sortablelist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.themes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.responsive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.widget.datetime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.widget.multiselect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.widget.select-transfer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.widget.select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/autotype/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.kr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs-latin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-modal/css/bootstrap-modal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-modal/js/bootstrap-modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-modal/js/bootstrap-modalmanager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-multiselect/css/bootstrap-multiselect.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-multiselect/js/bootstrap-multiselect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-timepicker/css/bootstrap-timepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-timepicker/css/bootstrap-timepicker.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-timepicker/js/bootstrap-timepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-timepicker/js/bootstrap-timepicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/excanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/excanvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.colorhelpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.aggregate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.canvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.categories.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.crosshair.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.errorbars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.fillbetween.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.navigate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.pie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.resize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.selection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.stack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.symbol.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.threshold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/flot/jquery.flot.time.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.core.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.effect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.effect.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.mouse.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.sortable.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.widget.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery-ui/jquery.ui.widget.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/load-image/load-image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/load-image/load-image.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_pt-PT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_ua.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/select2/select2_locale_zh-hans.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.bootstrap2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.bootstrap3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.legacy.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/selectize/selectize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/snapjs/snap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/snapjs/snap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/xadmin/vendor/snapjs/snap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MxOnline.iml" afterPath="$PROJECT_DIR$/.idea/MxOnline.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MxOnline/settings.py" afterPath="$PROJECT_DIR$/MxOnline/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MxOnline/urls.py" afterPath="$PROJECT_DIR$/MxOnline/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/views.py" afterPath="$PROJECT_DIR$/apps/users/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/register.html" afterPath="$PROJECT_DIR$/templates/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" afterPath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/xadmin/css/xadmin.form.css" afterPath="$PROJECT_DIR$/static/xadmin/css/xadmin.form.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.formset.js" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.plugin.formset.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/xadmin/js/xadmin.responsive.js" afterPath="$PROJECT_DIR$/static/xadmin/js/xadmin.responsive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.el.js" afterPath="$PROJECT_DIR$/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.el.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -296,8 +52,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="728">
+              <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
               <folding>
                 <element signature="e#20#55#0" expanded="true" />
               </folding>
@@ -504,10 +260,19 @@
       <option name="presentableId" value="Default" />
       <updated>1506699618307</updated>
     </task>
+    <task id="LOCAL-00001" summary="user register finish">
+      <created>1508687451121</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1508687451121</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2048" height="1065" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -536,6 +301,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="user register finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="user register finish" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -863,8 +632,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="728">
+          <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
           <folding>
             <element signature="e#20#55#0" expanded="true" />
           </folding>
