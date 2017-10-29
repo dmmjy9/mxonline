@@ -1,0 +1,165 @@
+{% extends 'base.html' %}
+{% block title %}公开课列表 - 慕学在线网{% endblock %}
+{% load staticfiles %}
+{% block custom_bread %}
+    <section>
+    <div class="wp">
+        <ul class="crumbs">
+            <li><a href="/">首页</a>></li>
+            <li>公开课</li>
+        </ul>
+    </div>
+    </section>
+{% endblock %}
+
+{% block content %}
+    <section>
+	<div class="wp">
+		<div class="list" style="margin-top:0;">
+			<div class="left layout">
+				<div class="head">
+					<ul class="tab_header">
+						<li class="{% if sort == '' %}active{% endif %}"><a href="?sort=">最新 </a></li>
+						<li class="{% if sort == 'hot' %}active{% endif %}"><a href="?sort=hot">最热门</a></li>
+						<li class="{% if sort == 'students' %}active{% endif %}"><a href="?sort=students">参与人数</a></li>
+					</ul>
+				</div>
+                <div id="inWindow">
+                    <div class="tab_cont " id="content">
+					<div class="group_list">
+                    {% for course in all_courses.object_list %}
+                            <div class="box">
+                                <a href="{% url 'course:course_detail' course.id %}">
+                                    <img width="280" height="350" class="scrollLoading" src="{{ MEDIA_URL }}{{ course.image }}"/>
+                                </a>
+                                <div class="des">
+                                    <a href="{% url 'course:course_detail' course.id %}">
+                                        <h2>{{ course.name }}</h2>
+                                    </a>
+                                    <span class="fl">时长：<i class="key">{{ course.learn_times }}</i></span>
+                                    <span class="fr">学习人数：{{ course.students }}</span>
+                                </div>
+                                <div class="bottom">
+                                    <a href="{% url 'course:course_detail' course.id %}"><span class="fl">来自{{ course.course_org }}</span></a>
+                                    <span class="star fr  notlogin
+                                        " data-favid="15">
+                                        {{ course.fav_nums }}
+                                    </span>
+                                </div>
+                            </div>
+                    {% endfor %}
+
+					</div>
+                    <div class="pageturn">
+                        <ul class="pagelist">
+                            {% if all_courses.has_previous %}
+                                <li class="long"><a href="?{{ all_courses.previous_page_number.querystring }}">上一页</a></li>
+                            {% endif %}
+                            {% for page in all_courses.pages %}
+                                {% if page %}
+                                    {% ifequal page all_courses.number %}
+                                        <li class="active"><a href="?page=1">{{ page }}</a></li>
+                                    {% else %}
+                                        <li><a href="?{{ page.querystring }}" class="page">{{ page }}</a></li>
+                                    {% endifequal %}
+                                {% else %}
+                                    <li class="none"><a href="">...</a></li>
+                                {% endif %}
+                            {% endfor %}
+                            {% if all_courses.has_next %}
+                                <li class="long"><a href="?{{ all_courses.next_page_number.querystring }}">下一页</a></li>
+                            {% endif %}
+                        </ul>
+                    </div>
+				</div>
+                </div>
+			</div>
+			<div class="right layout">
+				<div class="head">热门课程推荐</div>
+				<div class="group_recommend">
+                    {% for hot_course in hot_courses %}
+                        <dl>
+						<dt>
+							<a target="_blank" href="">
+								<img width="240" height="220" class="scrollLoading" src="{{ MEDIA_URL }}{{ hot_course.image }}"/>
+							</a>
+						</dt>
+						<dd>
+							<a target="_blank" href=""><h2>{{ hot_course.name }}</h2></a>
+							<span class="fl">难度：<i class="key">{{ hot_course.get_degree_display }}</i></span>
+						</dd>
+					</dl>
+                    {% endfor %}
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{% endblock %}
+<script type="text/javascript">
+//收藏分享
+function add_fav(current_elem, fav_id, fav_type){
+    $.ajax({
+        cache: false,
+        type: "POST",
+        url:"{% url 'org:add_fav' %}",
+        data:{'fav_id':fav_id, 'fav_type':fav_type},
+        async: true,
+        beforeSend:function(xhr, settings){
+            xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
+        },
+        success: function(data) {
+            if(data.status == 'fail'){
+                if(data.msg == '用户未登录'){
+                    window.location.href="/login/";
+                }else{
+                    current_elem.text(data.msg)
+                }
+            }else if(data.status == 'success'){
+                current_elem.text(data.msg)
+            }
+        },
+    });
+}
+
+$('.collectionbtn').on('click', function(){
+    add_fav($(this), {{ course_org.id }}, 2);
+});
+
+$(function(){
+    var $precision = $('.precision'),
+        score = $precision.attr('data-star-scope'),
+        option =  {
+                    half		: true,
+                    path		: '{% static 'images/' %}',
+                    precision	: true,
+                    size		: 24,
+                    starOff		: 'g_star.png',
+                    starOn		: 'r_star.png',
+                    starHalf	: 'h_star.png',
+                    hints       : ['极差', '差', '一般', '好评', '非常满意'],
+                    noRatedMsg  : '暂时还未获得评价！',
+                    readOnly    : true,
+                    score       : score
+                };
+    $precision.raty(option);
+
+    $('.jsFavBtn').on('click', function(){
+        var type = $(this).attr('data-fav-type');
+        if(type == '1'){
+            favPraise($(this), 'fav' ,1 , '收藏');
+
+        }else if(type == '3'){
+            favPraise($(this), 'fav' ,3 );
+
+        }else if(type == '11'){
+            favPraise($(this), 'pra', 1);
+
+        }else if(type == '4'){
+            favPraise($(this), 'fav' ,4 );
+
+        }
+    });
+})
+</script>

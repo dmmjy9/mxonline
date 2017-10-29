@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'xadmin',
     'crispy_forms',
     'captcha',
+    'pure_pagination',
 ]
 AUTH_USER_MODEL = "users.UserProfile"
 
@@ -77,6 +78,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.core.context_processors.media',
             ],
         },
     },
@@ -146,3 +148,6 @@ EMAIL_HOST_USER = "dmmjy9@dmmjy9.com"
 EMAIL_HOST_PASSWORD = "0830--Mjy"
 EMAIL_USE_TLS = False
 EMAIL_FROM = "dmmjy9@dmmjy9.com"
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

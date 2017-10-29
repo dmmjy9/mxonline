@@ -22,6 +22,7 @@ class CustomBackend(ModelBackend):
         except Exception as e:
             return None
 
+
 class LoginView(View):
     def get(self, request):
         return render(request, "login.html", {})
