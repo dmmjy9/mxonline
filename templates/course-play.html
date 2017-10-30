@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% block title %}公开课视频信息 - 慕学在线网{% endblock %}
+{% block title %}{{ video.name }} - 慕学在线网{% endblock %}
 {% load staticfiles %}
 {% block custom_bread %}
     <section>
@@ -8,8 +8,8 @@
 			<ul>
 				<li><a href="/">首页</a>></li>
                 <li><a href="{% url 'course:course_list' %}">公开课程</a>></li>
-                <li><a href="{% url 'course:course_detail' course.id %}">课程详情</a>></li>
-                <li>章节信息</li>
+                <li><a href="{% url 'course:course_detail' course.id %}">{{ course.name }}</a>></li>
+                <li>{{ video.name }}</li>
 			</ul>
 		</div>
 	</div>
@@ -22,10 +22,23 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/aui.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'css/mooc.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'css/muke/course/common-less.css' %}">
+    <link href="http://vjs.zencdn.net/6.2.8/video-js.css" rel="stylesheet">
+    <style>
+    .video-js .vjs-big-play-button{
+        top:50%;
+        left:50%;
+    }
+    </style>
 {% endblock %}
 {% block content %}
     <div id="main">
-    <div class="course-infos">
+    <div style="width:1200px;height:675px;margin-left:340px">
+        <video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="1200"
+            poster="http://video-js.zencoder.com/oceans-clip.png"
+            data-setup="{}">
+            <source src="{{ video.url }}" type="video/mp4">
+        </video>
+    </div>
         <div class="w pr">
             <div style="height: 15px" class="path">
             </div>
@@ -74,7 +87,7 @@
                             <ul class="video">
                             {% for video in lesson.get_lesson_video %}
                                 <li>
-                                    <a target="_blank" href='{% url "course:video_play" video.id %}' class="J-media-item studyvideo">{{ video.name }} ({{ course.learn_times }})
+                                    <a target="_blank" href='/video/3662' class="J-media-item studyvideo">{{ video.name }} ({{ course.learn_times }})
                                         <i class="study-state"></i>
                                     </a>
                                 </li>
@@ -161,4 +174,7 @@
 
 </div>
 </div>
+{% endblock %}
+{% block custom_js %}
+<script src="http://vjs.zencdn.net/6.2.8/video.js"></script>
 {% endblock %}
