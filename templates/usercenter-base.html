@@ -85,8 +85,8 @@
 	<div class="wp list personal_list">
 	<div class="left">
         <ul>
-            <li class="active2"><a href="usercenter-info.html">个人资料</a></li>
-            <li ><a href="usercenter-mycourse.html">我的课程</a></li>
+            <li class="active2"><a href="{% url 'users:user_info' %}">个人资料</a></li>
+            <li ><a href="{% url 'users:mycourse' %}">我的课程</a></li>
             <li ><a href="usercenter-fav-course.html">我的收藏</a></li>
             <li >
                 <a href="usercenter-message.html" style="position: relative;">
@@ -175,8 +175,7 @@
             <div class="button">
                 <input class="changeemai_btn" id="jsChangeEmailBtn" type="button" value="完成"/>
             </div>
-            <input type='hidden' name='csrfmiddlewaretoken' value='DaP7IUKm9FA9nELA9YUlYYWpyIDdCiIP' />
-        <input type='hidden' name='csrfmiddlewaretoken' value='799Y6iPeEDNSGvrTu3noBrO4MBLv6enY' />
+            {% csrf_token %}
         </form>
     </div>
 
@@ -214,15 +213,14 @@
                 <input type="hidden" name="mobile" id="jsInpResetMobil" />
                 <input id="jsSetNewPwdBtn" type="button" value="提交" />
             </div>
-            <input type='hidden' name='csrfmiddlewaretoken' value='DaP7IUKm9FA9nELA9YUlYYWpyIDdCiIP' />
+            {% csrf_token %}
         </form>
     </div>
     <div class="forgetbox dialogbox">
         <h1>忘记密码</h1>
-        <div class="close jsCloseDialog"><img src="../images/dig_close.png"/></div>
+        <div class="close jsCloseDialog"><img src="{% static 'images/dig_close.png' %}"/></div>
         <div class="cont">
             <form id="jsFindPwdForm" autocomplete="off">
-                <input type='hidden' name='csrfmiddlewaretoken' value='DaP7IUKm9FA9nELA9YUlYYWpyIDdCiIP' />
                 <div class="box">
                     <span class="word2" >账&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号</span>
                     <input type="text" id="account" name="account" placeholder="手机/邮箱"/>
@@ -235,6 +233,7 @@
                 <div class="button">
                     <input type="hidden" name="sms_type" value="1">
                     <input id="jsFindPwdBtn" type="button" value="提交" />
+                    {% csrf_token %}
                 </div>
             </form>
         </div>
